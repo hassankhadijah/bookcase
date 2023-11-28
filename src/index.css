@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* media query rules*/
+@media only screen and (max-width: 540px) {
+  body {
+    background-color: black;
+    color: #fff;
+  }
+  header a {
+    color: #f1f1f1;
+  }
+
+
+}
+
+
+/*
+  #ffffff - #fff
+  #000000 - #000
+  #ff0000 - red
+  #0000ff - blue
+  00 - ff
+  0-9, a-f
+  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f
+*/
+

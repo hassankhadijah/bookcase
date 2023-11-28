@@ -1,0 +1,20 @@
+@use './../scss/base';
+@use './../scss/mixins';
+
+// making use of nesting
+header {
+   @include mixins.background_theme(#0000);
+    margin-bottom: 20px;
+
+    a, h1 {
+        color: $color-white;
+
+    }
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
